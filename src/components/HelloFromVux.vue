@@ -1,11 +1,11 @@
 <template>
   <div>
     <div class="vux-demo">
-      <img class="logo" src="../assets/vux_logo.png">
+      <img class="logo" src="../assets/logo.gif">
       <h1> </h1>
     </div>
-    <group title="cell demo">
-      <cell title="VUX" value="cool" is-link></cell>
+    <group>
+      <cell title="N2真题" value="開始" is-link link='/N2List'></cell>
     </group>
   </div>
 </template>
@@ -35,7 +35,7 @@ export default {
   text-align: center;
 }
 .logo {
-  width: 100px;
+  width: 100%;
   height: 100px
 }
 </style>

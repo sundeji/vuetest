@@ -5,13 +5,26 @@ import FastClick from 'fastclick'
 import VueRouter from 'vue-router'
 import App from './App'
 import Home from './components/HelloFromVux'
+import HelloWorld from './components/HelloWorld'
+import N2List from './demos/N2List'
+import N2_201007_01 from './demos/N2_201007_01'
 
 Vue.use(VueRouter)
 
 const routes = [{
   path: '/',
   component: Home
-}]
+}, {
+  path: '/HelloWorld',
+  component: HelloWorld
+}, {
+  path: '/N2List',
+  component: N2List
+}, {
+  path: '/N2_201007_01',
+  component: N2_201007_01
+}
+]
 
 const router = new VueRouter({
   routes
